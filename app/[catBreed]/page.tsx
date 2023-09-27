@@ -46,7 +46,7 @@ export default async function CatBreed({
   return (
     <>
       <div className="xl:container mx-auto">
-        <div className="h-[50rem] flex xl:flex-nowrap md:flex-wrap flex-wrap md:justify-center md:mx-14 mx-7">
+        <div className="flex xl:flex-nowrap md:flex-wrap flex-wrap md:justify-center md:mx-14 mx-7">
           <div className="relative md:w-1/2 w-full flex justify-center">
             <div className="absolute w-16 md:h-80 h-64 bg-cat-decoration md:-ml-96 -ml-72 mt-6 rounded-2xl"></div>
             <div className="relative md:w-[370px] md:h-[370px] w-[300px] h-[300px] rounded-3xl md:mb-10 md:ml-0 ml-4">
@@ -477,7 +477,7 @@ export default async function CatBreed({
           </div>
         </div>
 
-        <p className="text-[36px] text-cat-black h-auto xl:mt-[10rem] md:mt-[35rem] mt-[40rem] xl:text-left md:text-center text-center font-semibold">
+        <p className="text-[36px] text-cat-black xl:text-left md:text-center text-center font-semibold mt-10">
           Other photos
         </p>
         <div className="flex md:flex-wrap flex-wrap justify-center gap-x-12 gap-y-9 md:justify-center md:mt-[5rem] mt-[2rem] mb-28">
