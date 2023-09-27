@@ -143,6 +143,7 @@ export const MainSection = ({
                 alt="Beng"
                 fill
                 priority
+                objectFit="cover"
               />
               <p className="absolute text-cat-black font-bold md:top-60 top-52 text-[18px]">
                 Bengal
@@ -155,6 +156,7 @@ export const MainSection = ({
                 alt="Beng"
                 fill
                 priority
+                objectFit="cover"
               />
               <p className="absolute text-cat-black font-bold md:top-60 top-52 text-[18px]">
                 Savannah
@@ -167,6 +169,7 @@ export const MainSection = ({
                 alt="Beng"
                 fill
                 priority
+                objectFit="cover"
               />
               <p className="absolute text-cat-black font-bold md:top-60 top-52 text-[18px]">
                 Norwegian Forest Cat
@@ -179,6 +182,7 @@ export const MainSection = ({
                 alt="Beng"
                 fill
                 priority
+                objectFit="cover"
               />
               <p className="absolute text-cat-black font-bold md:top-60 top-52 text-[18px]">
                 Selkirk Rex

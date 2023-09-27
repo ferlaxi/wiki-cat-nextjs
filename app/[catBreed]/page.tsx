@@ -55,6 +55,7 @@ export default async function CatBreed({
                 src={imagesBreed[0].url}
                 alt={catBreed}
                 fill
+                objectFit="cover"
               />
             </div>
           </div>
@@ -488,6 +489,7 @@ export default async function CatBreed({
                 src={imagesBreed[1].url}
                 alt="BreedPhoto"
                 fill
+                objectFit="cover"
               />
             </div>
           ) : (
@@ -499,6 +501,7 @@ export default async function CatBreed({
                 className="rounded-3xl"
                 src={imagesBreed[2].url}
                 alt="BreedPhoto"
+                objectFit="cover"
                 fill
               />
             </div>
@@ -512,6 +515,7 @@ export default async function CatBreed({
                 src={imagesBreed[3].url}
                 alt="BreedPhoto"
                 fill
+                objectFit="cover"
               />
             </div>
           ) : (
@@ -524,6 +528,7 @@ export default async function CatBreed({
                 src={imagesBreed[4].url}
                 alt="BreedPhoto"
                 fill
+                objectFit="cover"
               />
             </div>
           ) : (
@@ -536,6 +541,7 @@ export default async function CatBreed({
                 src={imagesBreed[5].url}
                 alt="BreedPhoto"
                 fill
+                objectFit="cover"
               />
             </div>
           ) : (
@@ -548,6 +554,7 @@ export default async function CatBreed({
                 src={imagesBreed[6].url}
                 alt="BreedPhoto"
                 fill
+                objectFit="cover"
               />
             </div>
           ) : (
@@ -560,6 +567,7 @@ export default async function CatBreed({
                 src={imagesBreed[7].url}
                 alt="BreedPhoto"
                 fill
+                objectFit="cover"
               />
             </div>
           ) : (
@@ -572,6 +580,7 @@ export default async function CatBreed({
                 src={imagesBreed[8].url}
                 alt="BreedPhoto"
                 fill
+                objectFit="cover"
               />
             </div>
           ) : (
