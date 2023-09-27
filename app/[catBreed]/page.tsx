@@ -477,7 +477,7 @@ export default async function CatBreed({
           </div>
         </div>
 
-        <p className="text-[36px] text-cat-black xl:mt-[10rem] md:mt-[35rem] mt-[40rem] xl:text-left md:text-center text-center font-semibold">
+        <p className="text-[36px] text-cat-black h-auto xl:mt-[10rem] md:mt-[35rem] mt-[40rem] xl:text-left md:text-center text-center font-semibold">
           Other photos
         </p>
         <div className="flex md:flex-wrap flex-wrap justify-center gap-x-12 gap-y-9 md:justify-center md:mt-[5rem] mt-[2rem] mb-28">
