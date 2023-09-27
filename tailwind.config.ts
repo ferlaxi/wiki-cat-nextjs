@@ -13,8 +13,23 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'cat-black': '#291507',
+        'cat-gray': '#BDBDBD',
+        'cat-gray2': '#F2F2F2',
+        'cat-gray3': '#9797971A',
+        'cat-bg': '#E3E1DC',
+        'cat-border-line': '#4D270C',
+        'cat-link': '#29150799',
+        'cat-decoration': '#DEC68B',
+        'cat-rate1': '#544439',
+        'cat-rate2': '#E0E0E0',
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('tailwind-scrollbar'),
+  ],
 }
 export default config
